@@ -1,0 +1,79 @@
+body {
+	margin: auto;
+	margin-top: 3rem;
+	text-align: center;
+	font-size: 2rem;
+	width: 100vw;
+}
+
+.task-form {
+	background: lightgrey;
+	height: 15rem;
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+}
+
+.task-form input {
+	font-size: 2rem;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 200px;
+	height: 80px;
+}
+
+.task-form button {
+	font-size: 1.5rem;
+	background: lightgreen;
+	margin: auto;
+	margin-bottom: 1rem;
+	width: 200px;
+	height: 80px;
+}
+
+.task-container {
+	margin: auto;
+	margin-top: 2rem;
+	background: yellow;
+	text-align: center;
+	offset: 0;
+}
+
+.task {
+	margin: auto;
+	background: lightcoral;
+	height: 8rem;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 2rem;
+}
+
+.task input {
+	font-size: 1rem;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 200px;
+	height: 50px;
+}
+
+.task .button-container {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.task .button-container button {
+	font-size: 1.5rem;
+	background: lightblue;
+	margin: auto;
+	width: 200px;
+	height: 40px;
+}
+
+.task .button-container button:first-of-type {
+	background: darkred;
+	color: white;
+}
